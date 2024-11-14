@@ -1,0 +1,93 @@
+.body{
+  background-color: #f5f5f5;
+}
+.task-manager{
+  background-color: #4651a9;
+  h1{
+    color: #fff;
+  }
+}
+.card-active{
+    background: #eff1ff;
+    border-color: #c0c7fe;
+}
+.task-section{
+  margin-top: 1rem;
+  .task-card{
+    border-bottom: 1px solid #ddd;
+    .tick-div{
+      svg{
+        width: 1.2rem;
+      }
+    }
+  }
+}
+
+.task-list-inner-cards{
+  .list-card:nth-child(5n+1) {
+    background-color: #d9ffdb; /* Color 1 */
+  }
+  
+  .list-card:nth-child(5n+2) {
+    background-color: #fff4e1; /* Color 2 */
+  }
+  
+  .list-card:nth-child(5n+3) {
+    background-color: #ffddda; /* Color 3 */
+  }
+  
+  .list-card:nth-child(5n+4) {
+    background-color: #fce4ff; /* Color 4 */
+  }
+  
+  .list-card:nth-child(5n+5) {
+    background-color: #e2edff; /* Color 5 */
+  }
+}
+
+.date{
+  color: red;
+  white-space: nowrap;
+  background: #ffefef;
+  padding: .2rem .5rem;
+  border-radius: 50px;
+}
+
+.done{
+  background: green;
+  padding: .2rem .5rem;
+  border-radius: 50px;
+  color: #fff;
+
+  svg{
+    width: 1rem;
+  }
+}
+.complete{
+  padding: .3rem .5rem;
+  border-radius: 50px;
+  background: #4651a9;
+  color: #fff;
+}
+.sub-task{
+  border: 1px solid #4338ca;
+  border-radius: 12px;
+  overflow: hidden;
+  .title{
+    background: #f2f0ff;
+  }
+}
+.noTaskFound{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoutIcon{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #ffffff;
+}
